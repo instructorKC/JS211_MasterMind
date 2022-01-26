@@ -50,7 +50,6 @@ const generateHint = (guess) =>  {
 }
 
 const mastermind = (guess) => {
-  
   if(guess === solution){
    return 'You guessed it!'
   }
